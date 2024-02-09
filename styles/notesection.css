@@ -1,0 +1,23 @@
+.note-section {
+  margin: 0px;
+  padding: 0px 15px 0px 15px;
+  display: flex;
+  height: 25vh;
+  margin-left: 250px;
+  display: flex;
+  flex-direction: column;
+}
+
+.note-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  background-color: #F9DEC2;
+  margin-right: 20px;
+  box-shadow: 5px 5px #AF0022, 10px 10px #00131E;
+}
+
+.note-container p {
+  padding: 10px;
+}

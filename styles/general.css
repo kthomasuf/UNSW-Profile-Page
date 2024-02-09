@@ -1,0 +1,41 @@
+/*
+Retro text from https://www.youtube.com/watch?v=h0G2dDPqU-8
+*/
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #144157;
+  margin: 0px;
+  padding: 0px;
+  font-family: "PT Sans Caption", Arial;
+}
+
+p {
+  margin: 3px 0px 3px 0px;
+  font-size: 18px;
+}
+
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.no-style {
+  text-decoration: none;
+  color: black;
+}
+
+.no-style:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.general-header {
+  color: #F9DEC2;
+  font-family: 'Press Start 2P';
+  text-shadow: 3px 3px #AF0022, 6px 6px #00131E;
+}

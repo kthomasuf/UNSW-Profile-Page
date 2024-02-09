@@ -1,0 +1,109 @@
+.main-section {
+  margin: 0px;
+  padding: 0px 15px 0px 15px;
+  display: flex;
+  height: 100vh;
+  margin-left: 250px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 1026px) {
+  .main-section {
+    margin-left: 10px;
+    margin-bottom: 250px;
+  }
+  .big-name-header {
+    margin-top: 75px;
+  }
+}
+
+.big-name-header {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.name-header {
+  color: #F9DEC2;
+  font-size: 65px;
+  font-family: 'Press Start 2P';
+  text-shadow: 5px 5px #AF0022, 10px 10px #00131E;
+}
+
+.clock-container {
+  background-color: #FCF8E8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin-left: 30px;
+  border-radius: 10px;
+}
+
+.clock-gif {
+  width: 160px;
+  height: 250px;
+  object-fit: cover;
+  margin-left: 25px;
+}
+
+.greeting-container {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  margin-top: 20px;
+}
+
+@media (max-width: 1000px) {
+  .greeting-container {
+    grid-template-columns: 1fr;
+  }
+  .introduction-container {
+    margin-right: 0px;
+    margin-bottom: 20px;
+  }
+}
+
+.introduction-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  background-color: #F9DEC2;
+  margin-right: 20px;
+  box-shadow: 5px 5px #AF0022, 10px 10px #00131E;
+}
+
+.introduction-container p, h3 {
+  margin: 0px;
+  padding: 10px;
+}
+
+.facts-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  background-color: #F9DEC2;
+  box-shadow: 5px 5px #AF0022, 10px 10px #00131E;
+}
+
+.facts-container h3 {
+  margin: 0px;
+  padding: 10px;
+}
+
+.facts-container p {
+  margin: 0px;
+  padding: 0px 10px 5px 10px;
+}
+
+.greeting-header, .contact-details {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.greeting-header {
+  font-size: 28px;
+}

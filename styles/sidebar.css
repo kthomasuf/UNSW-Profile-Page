@@ -1,0 +1,108 @@
+.nav-bar {
+  background-color: #0C3447;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  left: 0px;
+  bottom: 0px;
+  top: 0px;
+  width: 250px;
+}
+
+@media only screen and (max-width: 1026px) {
+  .nav-bar {
+    display: none;
+  }
+}
+
+.portrait-container {
+  background-color: #F9DEC2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: 3px 3px #AF0022, 6px 6px #00131E;
+}
+
+.portrait-img {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.page-scrollers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.page-scrollers p {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.about-text, .resume-text, .projects-text {
+  transition: background-color 0.15s;
+  font-weight: 700;
+  font-size: 20px;
+  color: #F9DEC2;
+  font-family: 'Press Start 2P';
+  text-shadow: 1px 1px #AF0022, 2px 2px #00131E;
+}
+
+.about-text:hover, .resume-text:hover, .projects-text:hover {
+  color: white;
+}
+
+.nav-bar-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  margin: 0px;
+  margin-bottom: 15px;
+  padding: 10px;
+  background-color: #F9DEC2;
+  border-radius: 50%;
+  box-shadow: 3px 3px #AF0022, 6px 6px #00131E;
+  transition: background-color 0.15s;
+}
+
+.nav-bar-icon:hover {
+  background-color: white;
+  cursor: pointer;
+}
+
+.link-image {
+  width: 50px;
+  height: 50px;
+}
+
+.nav-bar-icon .tooltip {
+  position: absolute;
+  background-color: #AF0022;
+  color: white;
+  font-family: "PT Sans Caption", Arial;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-radius: 11px;
+  margin-top: 70px;
+  font-size: 12px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  white-space: nowrap;
+}
+
+.nav-bar-icon:hover .tooltip {
+  opacity: 1;
+}
